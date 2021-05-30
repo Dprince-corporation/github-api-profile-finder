@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./user-style.css">
+    <title>User-profile</title>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <nav class="profile-nav">
+                <div class="profile-first">
+                  <div class="profile-logo">
+                       <i class="fab fa-github"></i>
+                  </div>
+                    <input type="text" placeholder="search github or jump to.." class="profile-search">
+                </div>
+                <div class="profile-middle">
+                    <ul class="profile-item">
+                        <li class="list">
+                            <a href="" class="list-item">Pull request</a>
+                        </li>
+                        <li class="list">
+                            <a href="" class="list-item">Issues</a>
+                        </li>
+                        <li class="list">
+                            <a href="" class="list-item">Marketplace</a>
+                        </li>
+                        <li class="list">
+                            <a href="" class="list-item">Explore</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile-end">
+                   🔔
+                   ➕
+                   <img src="" alt="" class="profile-img-small">
+                </div>
+                <div class="profile-toggler">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="profile-details">
+                <div class="profile-left">
+                    <div class="profile-image">
+                        <img src="" alt="profile image" class="profile-img">
+                    </div>
+                    <div class="profile-desc">
+                        <h2 class="profile-name"></h2>
+                        <div class="profile-desc-center">
+                            <p class="profile-desc-p"></p>
+                        </div>
+                        <div class="profile-followers"></div>
+                        <div class="profile-following"></div>
+                        <div class="total-star"></div>
+                    </div>
+                </div>
+                <div class="profile-right">
+                    <div class="profile-tab">
+                        <ul class="profile-tab-items">
+                            <li class="profile-tab-list">
+                                <a href="" class="profile-tab-list-item">
+                                    📖 Overview
+                                </a>
+                            </li>
+                            <li class="profile-tab-list-repo">
+                                <a href="" class="profile-tab-list-item">
+                                    📼 Repository <span class="repos"></span>
+                                </a>
+                            </li>
+                            <li class="profile-tab-list">
+                                <a href="" class="profile-tab-list-item">
+                                    🎦 Projects
+                                </a>
+                            </li>
+                            <li class="profile-tab-list">
+                                <a href="" class="profile-tab-list-item">
+                                    🧳 Packages
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="profile-repo-find">
+                        <input type="text" placeholder="find a repository">
+                    </div>
+                    <div class="profile-right-items">
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <div class="developer">
+                @ 2021 <span>dprince Coder</span>
+            </div>
+        </footer>
+    </div>
+
+     <button id="fetch-repo" type="submit" class="btn" style="display: none;">search</button>
+
+    <script src="./app.js"></script>
+    <script src="./profile.js"></script>
+</body>
+</html>

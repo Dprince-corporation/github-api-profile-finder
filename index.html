@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="description" content="interactv with githubv api">
+    <meta name="keywords" content="interact with github api. github api, api github">
+     <link rel="canonical" href="https://githubapi.netlify.app/p/home">
+     <meta property="og:author" content="dprince coder">
+     <meta property="og:description" content="Another way of using Github Api">
+     <meta property="og:title" content="Search name using github Api">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://docs.microsoft.com/en-us/azure/api-management/media/api-management-configuration-repository-git/api-management-git-configure.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./all.css">
+    <title>Github Api</title>
+</head>
+<body>
+   <div class="form-body">
+        <h2>Search your Github profile & repository</h2>
+         <form id="github-form">
+             <input type="text" id="get-repo" class="get-repo" placeholder="search">
+             <button id="fetch-repo" type="submit" class="btn">search</button>
+         </form>
+         <div class="user-data">
+             <h3>Please wait...</h3>
+             <div class="process-data">
+                 <h4 class="processing"></h4>
+             </div>
+             <i class="fa fa-spinner"></i>
+         </div>
+   </div>
+    <div class="profile-toggler" style="display: none">
+         <i class="fas fa-bars"></i>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
